@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package ftp;
+
+message DownloadReq {
+  string name = 1;
+}
+
+message File {
+  string name = 1;
+  int32 seq_no = 2;
+  bytes data = 3;
+}
+
+message UploadRes {
+  string message = 1;
+}
+service FTP {
+  rpc Upload(stream File) returns (UploadRes);
+  rpc Download(DownloadReq) returns (stream File);
+}
