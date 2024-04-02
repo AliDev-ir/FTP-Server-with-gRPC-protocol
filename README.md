@@ -106,4 +106,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-This example section provides a guide on how to use the gRPC FTP server and includes an example of Python client code for interacting with the server. Feel free to adjust the formatting or wording to better fit your project's style and requirements.
+This example section provides a guide on how to use the gRPC FTP server and includes an example of Python client code for interacting with the server. Feel free to adjust the formatting or wording to better fit your project's style and requirements.❤️
